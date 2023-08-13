@@ -5,7 +5,7 @@ const storageSchema = new mongo.Schema(
         url: {
             type: String,
         },
-        fileName:{
+        filename:{
             type: String,
         },
        

@@ -38,7 +38,7 @@ const traksSchema = new mongo.Schema(
                 type: Number,
             }
         },
-        mediaID:{
+        mediaId:{
             type:mongo.Schema.Types.ObjectId,
         }
        

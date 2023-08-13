@@ -1,1 +1,5 @@
 PORT=3000
+DB_URI=mongodb://localhost:27017/CARROS
+PUBLIC_URL=http://localhost:3001
+JWT_SECRET=123456
+```

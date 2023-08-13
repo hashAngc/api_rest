@@ -6,7 +6,9 @@ const app = express();
 const dbConnect = require('./config/mongo');
 const port = process.env.PORT || 3000;
 app.use(cors())
-app.use("/", require("./routers"));
+app.use(express.json());
+app.use(express.static('storage'));
+app.use("/api", require("./routers"));
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 })
